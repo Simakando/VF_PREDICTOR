@@ -1,0 +1,10 @@
+{
+  "name": "betpawa-predictor-pro",
+  "version": "3.0.0",
+  "description": "Professional Virtual Football Predictor",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}
