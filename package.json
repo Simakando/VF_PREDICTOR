@@ -1,10 +1,41 @@
+
+## 3. package.json
+
+```json
 {
-  "name": "betpawa-predictor-pro",
+  "name": "betpawa-predictor-ultra",
   "version": "3.0.0",
-  "description": "Professional Virtual Football Predictor",
-  "main": "server.js",
+  "description": "Advanced football prediction system with AI learning and trap detection",
+  "main": "index.html",
   "scripts": {
-    "start": "node server.js"
+    "start": "npx http-server -p 8080",
+    "dev": "npx live-server --port=8080",
+    "test": "echo \"No tests specified\" && exit 0"
   },
-  "dependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/betpawa-predictor.git"
+  },
+  "keywords": [
+    "football",
+    "predictions",
+    "betting",
+    "ai",
+    "machine-learning",
+    "trap-detection",
+    "sports-analytics"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/betpawa-predictor/issues"
+  },
+  "homepage": "https://github.com/yourusername/betpawa-predictor#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
